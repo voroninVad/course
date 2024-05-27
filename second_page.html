@@ -3,34 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>second_page</title>
+    <link rel="stylesheet" href="styles/second_page.css">
+    <title>Frontend разработка</title>
 </head>
 <body>
-    <div>
-        <a href="index.html">Первая страница HTML,CSS,JavaScript</a><br><br><br>
-
-        <span id="html">HTML (HyperText Markup Language)</span>
-        <ul>
-            <li>Отвечает за структуру содержания веб-страницы.</li>
-            <li>Позволяет определять элементы и их иерархические отношения.</li>
-            <li>Используется для создания текстового и мультимедийного контента на веб-страницах.</li>
-        </ul>
-
-        <span id="css">CSS (Cascading Style Sheets)</span>
-        <ul>
-            <li>Отвечает за внешний вид и дизайн веб-страницы.</li>
-            <li>Позволяет устанавливать стили для элементов, такие как цвет текста, размеры и отступы.</li>
-            <li>Обеспечивает разделение структуры и внешнего вида, что упрощает поддержку кода.</li>
-            <li>Примеры свойств CSS: цвет, размер шрифта, поля, отступы, фон.</li>
-        </ul>
-
-        <span id="js">JavaScript</span>
-        <ul>
-            <li>Отвечает за динамическое поведение и интерактивность веб-страницы и интерактивность.</li>
-            <li>Позволяет добавлять такие функции, как анимация, обработка событий, проверка формы и связь с сервером.</li>
-            <li>Может изменять содержимое и структуру страницы, обновлять данные без перезагрузки страницы и многое другое.</li>
-            <li>Примеры использования JavaScript: добавление элементов на страницу, проверка формы, обработка кликов и т. д.</li>
-        </ul>
-    </div>
+    <header>
+        <nav>
+          <ul>
+            <li><a href="index.html#Introduction">Введение</a></li>
+            <li><a href="index.html#Tools">Инструменты</a></li>
+            <li><a href="index.html#Languages">Языки</a></li>
+            <li><a href="second_page.html">Перейти на 2ю строницу</a></li>
+            <li><a href="thrid_page.html">Оставить коментарий</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section>
+            <h1>История профессии фронтенд-разработчика</h1>
+            <div id="Story" class="story">
+                <img src="data:image/jpeg;base64,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" alt="Тим Бернерс-Ли">
+            <p>История профессии фронтенд-разработчика началась в 1990 году,
+                когда британский изобретатель Тим Бернерс-Ли представил революционный 
+                проект «Всемирная паутина» (World Wide Web). С этого момента технологии 
+                начали стремительно развиваться, появились различные языки программирования 
+                и инструменты для создания сайтов и веб-приложений. Сегодня 
+                фронтенд-разработчики создают внешний вид и функциональность сайтов,
+                используя HTML, CSS и JavaScript.</p>
+            </div>
+        </section>
+      </main>
+      <footer>
+        <nav>
+          <ul>
+            <li><a href="index.html#Introduction">Введение</a></li>
+            <li><a href="index.html#Tools">Инструменты</a></li>
+            <li><a href="index.html#Languages">Языки</a></li>
+            <li><a href="index.html#Articles">Статьи</a></li>
+            <li><a href="#Story">История профессии фронтенд-разработчика</a></li>
+            <li><a href="thrid_page.html">Оставить коментарий</a></li>
+          </ul>
+        </nav>
+        <div class="contacts">
+          <h3>Наши контакты</h3>
+          <p>телефон <a href="tel:+7(000)-000-00-00">+7(000)-000-00-00</a></p>
+          <p>эл. почта <a href="mailto:email@mail.ru">email@mail.ru</a></p>
+        </div>
+      </footer>
 </body>
 </html>
